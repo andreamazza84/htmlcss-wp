@@ -343,8 +343,7 @@ footer{
 
 /* contacts & credits*/
 .contacts{
-border-top: 1px solid #555;
-border-top-style: inset;
+border-top: 2px solid #aaa;
 }
 
 .contacts:after{
@@ -362,11 +361,17 @@ border-top-style: inset;
   text-align: right;
 }
 
+.social a{
+  margin-right: 10px;
+}
+
 .social i{
-  /* vertical-align: middle; */
   color: #555;
   font-size: 30px;
-  padding-right: 10px;
+}
+
+.social a:hover i{
+  text-shadow: 1px 1px #555;
 }
 
 /* /footer */
